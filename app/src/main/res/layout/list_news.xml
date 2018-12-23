@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NewsActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="@dimen/basicMargin"
+        android:layout_marginStart="@dimen/basicMargin"
+        android:layout_marginTop="@dimen/basicMargin"
+        app:layout_constraintEnd_toStartOf="@+id/section"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/basicMargin"
+        android:textColor="#FF8A80"
+        android:textSize="@dimen/textSizeM"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toStartOf="@+id/title"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Football" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:textSize="@dimen/textSizeL"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/section"
+        app:layout_constraintTop_toBottomOf="@+id/section"
+        tools:text="blahblahblahblahblhalbhalblhalbhaahblahblahblhalbhalblhalbha" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/basicMargin"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/textSizeS"
+        app:layout_constraintBottom_toTopOf="@id/time"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:text="youngban" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/basicMargin"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/textSizeS"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:text="2018/9/12" />
+
+
+</android.support.constraint.ConstraintLayout>

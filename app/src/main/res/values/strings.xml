@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="empty">No news found.</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="setting_menu_itel">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <string name="settings_section_title">Sections</string>
+    <string name="setting_section_key" translatable="false">SECTION_KEY</string>
+    <string name="setting_show_all_sections_label">All</string>
+    <string name="setting_show_all_sections_value" translatable="false"></string>
+    <string name="setting_section_default" translatable="false">All</string>
+    <string name="settings_filter_by_politics_label">Politics</string>
+    <string name="settings_filter_by_politics_value" translatable="false">politics</string>
+    <string name="settings_filter_by_business_label">Business</string>
+    <string name="settings_filter_by_business_value">business</string>
+    <string name="settings_filter_by_world_news_label">World News</string>
+    <string name="settings_filter_by_world_news_value" translatable="false">world news</string>
+    <string name="settings_filter_by_music_label">Music</string>
+    <string name="settings_filter_by_music_value" translatable="false">music</string>
+    <string name="settings_filter_by_sports_label">Sport</string>
+    <string name="settings_filter_by_sports_value" translatable="false">sport</string>
+    <string name="settings_filter_by_football_label">Football</string>
+    <string name="settings_filter_by_football_value" translatable="false">football</string>
+    <string name="settings_filter_by_money_label">Money</string>
+    <string name="settings_filter_by_money_value" translatable="false">money</string>
+    <string name="setting_number_title">Number of News</string>
+    <string name="setting_number_default" translatable="false">10</string>
+    <string name="setting_number_key" translatable="false">NUMBER_KEY</string>
+    <string name="apikey">909e5937-f2f5-488e-9630-697f7a4fbd94</string>
+
+</resources>
